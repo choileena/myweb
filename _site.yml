@@ -1,0 +1,14 @@
+name: "Leena Choi-website"
+output_dir: "."
+navbar:
+  title: "Leena's Website"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About Me"
+      href: about.html
+
+output:
+  html_document:
+    theme: flatly
+    css: style.css
